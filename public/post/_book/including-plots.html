@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Including Plots | R Markdown</title>
+  <meta name="description" content="2 Including Plots | R Markdown" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Including Plots | R Markdown" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Including Plots | R Markdown" />
+  
+  
+  
+
+<meta name="author" content="Orhan Aktas" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="r-markdown.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="r-markdown.html"><a href="r-markdown.html"><i class="fa fa-check"></i><b>1</b> R Markdown</a></li>
+<li class="chapter" data-level="2" data-path="including-plots.html"><a href="including-plots.html"><i class="fa fa-check"></i><b>2</b> Including Plots</a><ul>
+<li class="chapter" data-level="2.1" data-path="including-plots.html"><a href="including-plots.html#tohum-yatırımın-temel-amacı-girişimcilerin-yaşam-masraflarının-karşılanması.-ancak-çok-az-yatırımcı-bunun-farkında"><i class="fa fa-check"></i><b>2.1</b> tohum yatırımın temel amacı: girişimcilerin yaşam masraflarının karşılanması. (Ancak çok az yatırımcı bunun farkında!)</a></li>
+<li class="chapter" data-level="2.2" data-path="including-plots.html"><a href="including-plots.html#eleştiriler"><i class="fa fa-check"></i><b>2.2</b> Eleştiriler</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="including-plots.html"><a href="including-plots.html#doğal-seleksiyon"><i class="fa fa-check"></i><b>2.2.1</b> 1) Doğal seleksiyon</a></li>
+<li class="chapter" data-level="2.2.2" data-path="including-plots.html"><a href="including-plots.html#a-şans-konusunda"><i class="fa fa-check"></i><b>2.2.2</b> a) Şans konusunda</a></li>
+<li class="chapter" data-level="2.2.3" data-path="including-plots.html"><a href="including-plots.html#b-fazla-finansman-konusunda"><i class="fa fa-check"></i><b>2.2.3</b> b) Fazla finansman konusunda</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R Markdown</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="including-plots" class="section level1">
+<h1><span class="header-section-number">2</span> Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="including-plots.html#fig:pie">2.1</a> for example:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="including-plots.html#cb2-1"></a><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>))</span>
+<span id="cb2-2"><a href="including-plots.html#cb2-2"></a><span class="kw">pie</span>(</span>
+<span id="cb2-3"><a href="including-plots.html#cb2-3"></a>  <span class="kw">c</span>(<span class="dv">280</span>, <span class="dv">60</span>, <span class="dv">20</span>),</span>
+<span id="cb2-4"><a href="including-plots.html#cb2-4"></a>  <span class="kw">c</span>(<span class="st">&#39;Sky&#39;</span>, <span class="st">&#39;Sunny side of pyramid&#39;</span>, <span class="st">&#39;Shady side of pyramid&#39;</span>),</span>
+<span id="cb2-5"><a href="including-plots.html#cb2-5"></a>  <span class="dt">col =</span> <span class="kw">c</span>(<span class="st">&#39;#0292D8&#39;</span>, <span class="st">&#39;#F7EA39&#39;</span>, <span class="st">&#39;#C4B632&#39;</span>),</span>
+<span id="cb2-6"><a href="including-plots.html#cb2-6"></a>  <span class="dt">init.angle =</span> <span class="dv">-50</span>, <span class="dt">border =</span> <span class="ot">NA</span></span>
+<span id="cb2-7"><a href="including-plots.html#cb2-7"></a>)</span></code></pre></div>
+<div class="figure"><span id="fig:pie"></span>
+<img src="_main_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 2.1: A fancy pie chart.
+</p>
+</div>
+
+<p>Bir çok uzman gibi görünen kişiyi uzmanlıkları konusunda tartamayız. Karşımızdaki soru şudur: Gerçekten göründükleri gibi çok mu bilgililer yoksa bilgileri yüzeysel mi? Bunu anlamının konuyu bilmekten başka bir çözümü olmamakla birlikte konuyu bilseniz bile bazen ayırt etmekte zorlanabiliyorsunuz.
+Örneğin bu kişinin bir sunum yaptığını düşünün. Aynı bir oyuncunun rol yapması gibi mükemmel bir performans sergileyebilir. O zaman nasıl ayırt edeceğiz?</p>
+<p>Sherlock Holmes - Games of Shadow filminin final sahnesinde (<a href="https://youtu.be/JvoOBbChxb4?t=192" class="uri">https://youtu.be/JvoOBbChxb4?t=192</a>) bir suikastçi büyükelçi yaverlerinden birinin kılığına girmiştir. Dr. Watson hangi yaverin kılık değiştirdiğini anlayamaz ancak taklit edilmesi en zor şeyin spontane hareket olduğu düşüncesiyle bir garsonun elinde tabağı yere fırlatır. Herkes dönüp ne olduğuna bakarken suikastçi ne yapacağını şaşırır ve dümdüz duvara bakar. Bu hareketten Dr. Watson suikastçiyi açığa çıkarır ve yakalar. Elbette burada yapacağım öneri, uzmanın önünde tabakları yere fırlatmak değil ama konsept olarak buna çok yakın bir şey.</p>
+<p>Uzmanın bilgi seviyesi ancak ve ancak farklı farklı senaryolara anlık vereceği cevaplar ile belli olur.
+Bu da organik konuşmalarda gerçekleşir. Bu tip konuşmalarda konu spontane ilerler ve bilgiyle yeni yorumlar yapmak gerekir. Bu da derine inmeyi gerektirir. Gerçek bilgi sahibi kişiler derine indikçe bilgileri daha da ortaya çıkar. Hiç düşünmediğiniz konuları çok çok önceleri incelediğini görürsünüz.
+Bu kişiler kısa bir konuşma yaptıklarında sanki önce konuşmanın kitabını yazmış, daha sonra özetini çıkartmış gibidirler.
+Halbuki yüzeysel bilgi sahibi kişilerin derine indikçe bilgisizlikleri ortaya çıkar. Oradan buradan duydukları kulağa hoş gelen manşetvari sözlerle prestijlerini kaybetmemeye çalışırlar. Ancak kaçınılmaz olarak gittikçe kendilerini devamlı tekrar etmeye başlarlar. Bu kişiler kısa bir konuşma yaptıklarında aslında bir uzman rolü yapmaktadırlar.</p>
+<p>Bu nedenle gerçek uzmanlar tartışmaya girip farklı konuları konuşmaktan kaçınmazlar. Hatta bundan zevk alırlar. Diğer yandan sahte uzmanlar ise bu tip durumlarda ne yapacaklarını şaşırırlar ve şişmiş otoritelerini kaybetmektense tartışmaya girmeme eğiliminde olurlar.</p>
+
+<p>Girişimcilikle ilgilenmeye başladığım 2015 yılından itibaren Türkiye’deki girişim ekosisteminin problemleriyle ilgili bir çok içerikle karşılaştım. Bloglar, dergi yazıları, etkinliklerde yapılan konuşmalar.. vs. 2017 yılından itibaren ise doğrudan Türkiye’de girişimcilik yapmış biri olarak anlatılan noktalarının herbirinin önemli olduğunu düşünsem de özellikle girişimci perspektifinden bakıldığında konuşulanların gerçek sorunları pek temsil etmediğini görüyorum. Bu yazıda ekosistemi çok etkilediğini düşündüğüm sorunlar olan tohum yatırımda günlük masrafların öneminin anlaşılamamış olması, yatırımcı bünyesindeki “associate” rolündeki kişilerin bilgice yetersiz olması ve son olarak ekosistem olarak girişimci havuzunun gittikçe verimsizleşen bir mekanizmaya sahip olması konularını ele almaya çalıştım.</p>
+<div id="tohum-yatırımın-temel-amacı-girişimcilerin-yaşam-masraflarının-karşılanması.-ancak-çok-az-yatırımcı-bunun-farkında" class="section level2">
+<h2><span class="header-section-number">2.1</span> tohum yatırımın temel amacı: girişimcilerin yaşam masraflarının karşılanması. (Ancak çok az yatırımcı bunun farkında!)</h2>
+<p>Eğer bu yazıdan bir şey almanız gerekirse girişimcilerin yaşam masrafları ve etrafında oluşan alt konuların ekosistemin en temel sorunu olduğu olsun. Bu çok aşikar konu şaşırtıcı şekilde her yerde dile getirilse de temel sorunların arasına hiç bir şekilde konulmaz. Ancak eğer bir girişimciyle 1 hafta geçirirseniz aslında bir çok önemli kararın altında bu motivasyonun olduğunu görürsünüz. Ayrıca girişimcilerin kendi aralarında da yaptığı sohbetlerde de eğer aralarında ego savaşları yoksa bu konuların ne kadar yaygın olduğuna tanıklık edersiniz. Diğer yandan ben hiç bir konuşmada bir yatırımcının, sektör liderinin ya da mentörün bu konulardan bahsettiğini duymadım. Daha çok “evet girişimcilik zor” şeklinde üstü kapalı bir şekilde bahsedilen gizli bir konudur bu. Hatta bir yatırımcı görüşmesinde yatırımcının bize başka yerlerden geliriniz var değil mi diye sorduğunu bile biliyorum. Ekosistemi bir sistem olarak ileriye götürmek istiyorsak sorunları açık açık ortaya koymalı ve üstüne fikir yürütmeliyiz. Benim girişimcilikle uğraşırken özellikle de bu konunun önemini kavradıktan sonra en çok kafamı kurcalayan ve zamanı alan mesele açık ara budur. İlk hayaller döneminde bu sorunların otomatik olarak sihirli bir şekilde çözüleceği inancı vardır yeni girişimcilerde. Halbuki gerçek gelip yüzünüze çarptığında ortada sihirin falan olmadığını fark edersiniz, hayaller darmadağan olur. Şirketin masraflarını ödemek zorundasız, evinizin kirası varsa ödemek zorundasınız, bankaya kredi borcunuz varsa ödemek zorundasınız, çocuğunuzun masrafları varsa yapmak zorundasınız. Bunların hiç biri gelecek yatırımlara bel bağlanarak yapılacak işler değildir. Gelecek bir kaç ay sonra ortada kalacağınızı düşünüyorsanız hayal kuramazsınız. Girişimcilik dünyasında bunun tersi çok örnek vardır biliyorum. İşte gelecek ayı düşünürken yatırım alıp hayatı değişen kişiler. Ancak boğaz köprüsünden atlayıp kurtulanlarla aynı orandadır belki. Büyük çoğunluğu sonraki ay ortada kalmış ve girişimcilikten vazgeçmiştir. İşte bu yüzden Türkiye’de de bir çok aslında büyük potansiyeli olan yetenek, girişimciliği bırakıyor ve tekrar kurumsal hayata dönüyor. Kendine benim gibi ara yollar bulan girişimciler ise girişimcilik yaparken diğer başka bazı gelir kaynakları yaratıyor. Bu kulağa akıllıca gelse de aslında zamanınızın ve doğal olarak dikkatinizin bir kısmını aldığı için bütün odağınız girişiminizde olamıyor. Bu da apayrı bir problem. Ancak ekosistemde yatırım almadan ya da aldıysa da tekrar almadan hayatta kalan girişimcilerin büyük çoğunluğu bu kategoridedir. Bu kişiler ya girişimleriyle ilgili olmayan konularda proje kovalarlar ya danışmanlık yaparlar ya da doğrudan başka işlerle uğraşırlar. Bir yerde çalışırken girişim yapmaya çalışanları ise hiç bu kategoriye sokmuyorum bile. Her ne kadar büyük bir özveriyle uğraşıyorlar bile olsalar ben açıkçası bu kişilerin girişimcilik oyunu oynadıklarını düşünüyorum.</p>
+<p>Bunlar ekosistemin en altından görülenler. Peki neden önemli çünkü her ne kadar yatırım haberlerinde görünmüyor olsa da sistemin belki %95’ini bu katman oluşturuyor. Katma değeri fazla olan ürünleri bu kişiler üretecek, GDP’yi bu girişimciler arttıracak, geleceğin unicorn’ları bu katmanlardan çıkacak. Yeterki gelecek ay ortada mı kalacağım diye düşünmesin.</p>
+</details>
+
+<p>Ekosistem verimsizleşiyor. Peki neden? Bunu anlamak için önce şu anda işleyen mekanizmaya bakmamız, büyük resmi görmemiz gerekiyor. Daha sonra bu büyük resim içinde mekanizmanın neden verimsize doğru gittiğine bakılması lazım. Hadi başlayalım.</p>
+<p>Şu andaki girişim havuzunu geçen seneki girişimci havuzu üzerinden formülize edelim. 2019 yılındaki girişimci havuzundan ayrılanlar oldu bu aradaki dönemde. Diğer yandan yeni umutlarla bu havuza dahil olanlar da oldu. O zaman basit olarak bu seneki girişimci havuzunu şu şekilde hesaplayabiliriz.</p>
+<p><span class="math inline">\(Girişimciler_{2020} = Girişimciler_{2019}-Gidenler+Gelenler\)</span></p>
+<p>Bu denklemde gelenler hakkında çok konuşulurken, maalesef aslında esas önemli olan gidenlerden çok az bahsediliyor. Aslında ekosistemi büyük bir şirket olarak düşünürsek şu anda bütün stratejisi daha fazla istekli insanı girişimciliğe çekmek gibi görünüyor. Girişimci hikayeleri, pembe hayaller, yatırımların giderek arttığı, paranın çok bol olduğu, kendi işini yapmanın, sıfırdan bir şey ortaya koymanın cazibesi… Ben bu yazıda sadece gidenler hakkında da bir şeyler söylemiyor, çok daha ileri giderek, gidenleri sistemde tutmanın Türkiye’deki girişimciliği geliştirmek için yapılabilecek en iyi strateji olduğunu anlatmaya çalışıyorum.</p>
+<p>Peki kimdir bu gidenler? Bu kişiler önceki senelerde gelenlerin bir alt kümesi doğal olarak. Onlar da bir zamanlar yeni gelenler gibiydiler. Yıllar içinde bir şeyler denediler ve farklı nedenlerden ötürü ayrılıyorlar. Bu aynı zamandan şu doğal sonucu da getiriyor: Gidenlerin gelenlerin bir kaç sene sonraki, deneyim kazanmış halleri aslında. Bu o kadar önemli bir nokta ki, bence tüm stratejinin üzerine kurulması mantıksız olmaz. Mevcut durumda tecrübelileri gönderip, acemileri alıyoruz. Halbuki bu kadar tecrübelenmiş kişileri tutmamız gerekmez mi?
+Normalde girişimcilikle ilk tanışıyorsanız öğrenmeniz gereken en az 5-6 tane sağlam alan var.
+Şirket kurma, iş geliştirme, muhasebe, vergiler, finansman yönetimi, ortak bulma gibi konuları öğrenmek, tecrübe etmek ve tabi kavramak deneme yanılma ile oluyor ve bu da oldukça fazla zaman alıyor.
+Tam bunları öğrenmişken girişimcilerin finansmanları kalmıyor ve ekosistemden ayrılıyorlar.
+Bu grup içinde bu işin kendileri için uygun olmadığını görüp ayrılanlar da var elbette ancak girişimciliğim süresince benim gözlemim büyük çoğunluğunun finansman yetersizliğinden ayrıldığı, daha doğrusu ayrılmak zorunda kaldığı yönünde.
+Bir çok şeyi en etkili öğrenme yolu olan deneme yanılma ile öğrenmiş ve daha verimli olmaya başlama arifesindeki girişimcileri içeride tutmamız lazım.</p>
+</div>
+<div id="eleştiriler" class="section level2">
+<h2><span class="header-section-number">2.2</span> Eleştiriler</h2>
+<div id="doğal-seleksiyon" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> 1) Doğal seleksiyon</h3>
+<p>Bu fikrin en temel karşı argümanı elbette burada doğal seleksiyon eleştirisidir. Yani bu işin doğasının böyle olduğu ve uygun olanların kaldığı, uygun olmayanların yapamayıp ayrıldığını ifade eden bu yaklaşımın bu konuda çok doğru olduğunu düşünmüyorum.
+Çünkü zaten işin özünde bir şans faktörü var. Hangi startup’ın başarılı olacağı dünyanın hiç bir VC’si tarafından bile bilinemezken aslında kalanlar şansı yaver gidenler ya da daha fazla finansmanı olanlar oluyor. Bu iki konuyu da anlamsız şekilde yücelten kişiler var ve ben aşağıdaki nedenlerle bu kişileri anlamakta güçlük çekiyorum.</p>
+</div>
+<div id="a-şans-konusunda" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> a) Şans konusunda</h3>
+<details>
+<summary>genişlet</summary>
+mistik bakış açılarıyla “<em>girişimci dediğin şanslı olur</em>”’a kadar gelen düşünceler var. Eğer ekosistemimizde böyle düşünenler varsa bu öncelikle başarısızlık kültürüne inanmadıklarını gösterir. Ayrıca bu konu bana hep şu hikayeyi hatırlatır. Bir şirkete bir satışçı alınacaktır ve belli sayıda uygun aday kalır. Şirket sahibi sekreterine başvuruların yarısını çöpe atmasını ve kalanlar arasından birini seçip onu işe almasını ister. Sekreter şaşırır ve madem içinden bir tanesini tesadüfen seçeceksek neden tamamının içinden seçim yapmadıklarını sorar. Şirket sahibi şöyler der: “Şirketimde şanssızlara yer yok.”
+</details>
+</div>
+<div id="b-fazla-finansman-konusunda" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> b) Fazla finansman konusunda</h3>
+<details>
+<summary>genişlet</summary>
+ise “<em>girişimcilik para olmadan yapılabilecek bir şey değil</em>” şeklinde düşünceler var. Bunları savunanların da ekosisteme cebinde beş kuruş olmadan giren kişilerin nasıl dünyanın en zengin insanlarına dönüştüklerinin hikayesini iyi kavramadıklarını düşünüyorum. Ayrıca bu, şu yazıda bahsettiğim aslında muazzam sayıda insanın yapabileceği şeylerin belli kısıtlar nedeniyle nasıl çok az sayıdaki kişi tarafından yapıldığını irdelediğim konuya geliyor. Girişimciliği sadece finansmanı olan girişimcilerden, finansmanı olmayan girişimcilere de açmak toplam faydayı şaşırtıcı şekilde arttırdı. Dolayısıyla cebinde para olmayan kişilerin de girişimcilik yapıp yapamayacağı bir bilinmez olmaktan çoktan çıkmıştır.
+</details>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="r-markdown.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

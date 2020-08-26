@@ -1,0 +1,42 @@
+---
+title: "girişimci havuzunun gittikçe verimsizleşmesi hakkında"
+author: "Orhan Aktaş"
+date: '2020-07-02'
+output: pdf_document
+categories: deneme
+tags: []
+slug: girisimci_havuzu
+---
+Ekosistem verimsizleşiyor. Peki neden? Bunu anlamak için önce şu anda işleyen mekanizmaya bakmamız, büyük resmi görmemiz gerekiyor. Daha sonra bu büyük resim içinde mekanizmanın neden verimsize doğru gittiğine bakılması lazım. Hadi başlayalım.
+
+Şu andaki girişim havuzunu geçen seneki girişimci havuzu üzerinden formülize edelim. 2019 yılındaki girişimci havuzundan ayrılanlar oldu bu aradaki dönemde. Diğer yandan yeni umutlarla bu havuza dahil olanlar da oldu. O zaman basit olarak bu seneki girişimci havuzunu şu şekilde hesaplayabiliriz.
+
+$Girişimciler_{2020} = Girişimciler_{2019}-Gidenler+Gelenler$
+
+Bu denklemde gelenler hakkında çok konuşulurken, maalesef aslında esas önemli olan gidenlerden çok az bahsediliyor. Aslında ekosistemi büyük bir şirket olarak düşünürsek şu anda bütün stratejisi daha fazla istekli insanı girişimciliğe çekmek gibi görünüyor. Girişimci hikayeleri, pembe hayaller, yatırımların giderek arttığı, paranın çok bol olduğu, kendi işini yapmanın, sıfırdan bir şey ortaya koymanın cazibesi... Ben bu yazıda sadece gidenler hakkında da bir şeyler söylemiyor, çok daha ileri giderek, gidenleri sistemde tutmanın Türkiye'deki girişimciliği geliştirmek için yapılabilecek en iyi strateji olduğunu anlatmaya çalışıyorum.
+
+Peki kimdir bu gidenler? Bu kişiler önceki senelerde gelenlerin bir alt kümesi doğal olarak. Onlar da bir zamanlar yeni gelenler gibiydiler. Yıllar içinde bir şeyler denediler ve farklı nedenlerden ötürü ayrılıyorlar. Bu aynı zamandan şu doğal sonucu da getiriyor: Gidenlerin gelenlerin bir kaç sene sonraki, deneyim kazanmış halleri aslında. Bu o kadar önemli bir nokta ki, bence tüm stratejinin üzerine kurulması mantıksız olmaz. Mevcut durumda tecrübelileri gönderip, acemileri alıyoruz.  Halbuki bu kadar tecrübelenmiş kişileri tutmamız gerekmez mi?
+Normalde girişimcilikle ilk tanışıyorsanız öğrenmeniz gereken en az 5-6 tane sağlam alan var.
+Şirket kurma, iş geliştirme, muhasebe, vergiler, finansman yönetimi, ortak bulma gibi konuları öğrenmek, tecrübe etmek ve tabi kavramak deneme yanılma ile oluyor ve bu da oldukça fazla zaman alıyor.
+Tam bunları öğrenmişken girişimcilerin finansmanları kalmıyor ve ekosistemden ayrılıyorlar.
+Bu grup içinde bu işin kendileri için uygun olmadığını görüp ayrılanlar da var elbette ancak girişimciliğim süresince benim gözlemim büyük çoğunluğunun finansman yetersizliğinden ayrıldığı, daha doğrusu ayrılmak zorunda kaldığı yönünde.
+Bir çok şeyi en etkili öğrenme yolu olan deneme yanılma ile öğrenmiş ve daha verimli olmaya başlama arifesindeki girişimcileri içeride tutmamız lazım.
+
+## Eleştiriler
+
+### 1) Doğal seleksiyon
+Bu fikrin en temel karşı argümanı elbette burada doğal seleksiyon eleştirisidir. Yani bu işin doğasının böyle olduğu ve uygun olanların kaldığı, uygun olmayanların yapamayıp ayrıldığını ifade eden bu yaklaşımın bu konuda çok doğru olduğunu düşünmüyorum.
+Çünkü zaten işin özünde bir şans faktörü var. Hangi startup'ın başarılı olacağı dünyanın hiç bir VC'si tarafından bile bilinemezken aslında kalanlar şansı yaver gidenler ya da daha fazla finansmanı olanlar oluyor. Bu iki konuyu da anlamsız şekilde yücelten kişiler var ve ben aşağıdaki nedenlerle bu kişileri anlamakta güçlük çekiyorum.
+
+### a) Şans konusunda
+
+<details>
+<summary>genişlet</summary>
+mistik bakış açılarıyla "*girişimci dediğin şanslı olur*"'a kadar gelen düşünceler var. Eğer ekosistemimizde böyle düşünenler varsa bu öncelikle başarısızlık kültürüne inanmadıklarını gösterir. Ayrıca bu konu bana hep şu hikayeyi hatırlatır. Bir şirkete bir satışçı alınacaktır ve belli sayıda uygun aday kalır. Şirket sahibi sekreterine başvuruların yarısını çöpe atmasını ve kalanlar arasından birini seçip onu işe almasını ister. Sekreter şaşırır ve madem içinden bir tanesini tesadüfen seçeceksek neden tamamının içinden seçim yapmadıklarını sorar. Şirket sahibi şöyler der: "Şirketimde şanssızlara yer yok."
+</details>
+
+### b) Fazla finansman konusunda
+<details>
+<summary>genişlet</summary>
+ise "*girişimcilik para olmadan yapılabilecek bir şey değil*" şeklinde düşünceler var. Bunları savunanların da ekosisteme cebinde beş kuruş olmadan giren kişilerin nasıl dünyanın en zengin insanlarına dönüştüklerinin hikayesini iyi kavramadıklarını düşünüyorum. Ayrıca bu, şu yazıda bahsettiğim aslında muazzam sayıda insanın yapabileceği şeylerin belli kısıtlar nedeniyle nasıl çok az sayıdaki kişi tarafından yapıldığını irdelediğim konuya geliyor. Girişimciliği sadece finansmanı olan girişimcilerden, finansmanı olmayan girişimcilere de açmak toplam faydayı şaşırtıcı şekilde arttırdı. Dolayısıyla cebinde para olmayan kişilerin de girişimcilik yapıp yapamayacağı bir bilinmez olmaktan çoktan çıkmıştır.
+</details>

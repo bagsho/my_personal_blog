@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on A Hugo website</title>
+    <link>/tags/post/</link>
+    <description>Recent content in post on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>türk girişim ekosistemindeki en önemli problemler</title>
+      <link>/2020/07/01/ekosistem_problemleri/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/01/ekosistem_problemleri/</guid>
+      <description>Girişimcilikle ilgilenmeye başladığım 2015 yılından itibaren Türkiye’deki girişim ekosisteminin problemleriyle ilgili bir çok içerikle karşılaştım. Bloglar, dergi yazıları, etkinliklerde yapılan konuşmalar.. vs. 2017 yılından itibaren ise doğrudan Türkiye’de girişimcilik yapmış biri olarak anlatılan noktalarının herbirinin önemli olduğunu düşünsem de özellikle girişimci perspektifinden bakıldığında konuşulanların gerçek sorunları pek temsil etmediğini görüyorum. Bu yazıda ekosistemi çok etkilediğini düşündüğüm sorunlar olan tohum yatırımda günlük masrafların öneminin anlaşılamamış olması, yatırımcı bünyesindeki “associate” rolündeki kişilerin bilgice yetersiz olması ve son olarak ekosistem olarak girişimci havuzunun gittikçe verimsizleşen bir mekanizmaya sahip olması konularını ele almaya çalıştım.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/2020/06/20/r-markdown/</link>
+      <pubDate>Sat, 20 Jun 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/2020/06/20/r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Gerçek vs Sahte Uzman</title>
+      <link>/2020/06/20/my-first-post-using-r-markdown/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/06/20/my-first-post-using-r-markdown/</guid>
+      <description>Bir çok uzman gibi görünen kişiyi uzmanlıkları konusunda tartamayız. Karşımızdaki soru şudur: Gerçekten göründükleri gibi çok mu bilgililer yoksa bilgileri yüzeysel mi? Bunu anlamının konuyu bilmekten başka bir çözümü olmamakla birlikte konuyu bilseniz bile bazen ayırt etmekte zorlanabiliyorsunuz.Örneğin bu kişinin bir sunum yaptığını düşünün. Aynı bir oyuncunun rol yapması gibi mükemmel bir performans sergileyebilir. O zaman nasıl ayırt edeceğiz?
+Sherlock Holmes - Games of Shadow filminin final sahnesinde (https://youtu.</description>
+    </item>
+    
+  </channel>
+</rss>

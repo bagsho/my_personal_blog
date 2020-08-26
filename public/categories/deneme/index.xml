@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deneme on A Hugo website</title>
+    <link>/categories/deneme/</link>
+    <description>Recent content in deneme on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/deneme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>girişimci havuzunun gittikçe verimsizleşmesi hakkında</title>
+      <link>/2020/07/02/girisimci_havuzu/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/02/girisimci_havuzu/</guid>
+      <description>Ekosistem verimsizleşiyor. Peki neden? Bunu anlamak için önce şu anda işleyen mekanizmaya bakmamız, büyük resmi görmemiz gerekiyor. Daha sonra bu büyük resim içinde mekanizmanın neden verimsize doğru gittiğine bakılması lazım. Hadi başlayalım.
+Şu andaki girişim havuzunu geçen seneki girişimci havuzu üzerinden formülize edelim. 2019 yılındaki girişimci havuzundan ayrılanlar oldu bu aradaki dönemde. Diğer yandan yeni umutlarla bu havuza dahil olanlar da oldu. O zaman basit olarak bu seneki girişimci havuzunu şu şekilde hesaplayabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>türk girişim ekosistemindeki en önemli problemler</title>
+      <link>/2020/07/01/ekosistem_problemleri/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/07/01/ekosistem_problemleri/</guid>
+      <description>Girişimcilikle ilgilenmeye başladığım 2015 yılından itibaren Türkiye’deki girişim ekosisteminin problemleriyle ilgili bir çok içerikle karşılaştım. Bloglar, dergi yazıları, etkinliklerde yapılan konuşmalar.. vs. 2017 yılından itibaren ise doğrudan Türkiye’de girişimcilik yapmış biri olarak anlatılan noktalarının herbirinin önemli olduğunu düşünsem de özellikle girişimci perspektifinden bakıldığında konuşulanların gerçek sorunları pek temsil etmediğini görüyorum. Bu yazıda ekosistemi çok etkilediğini düşündüğüm sorunlar olan tohum yatırımda günlük masrafların öneminin anlaşılamamış olması, yatırımcı bünyesindeki “associate” rolündeki kişilerin bilgice yetersiz olması ve son olarak ekosistem olarak girişimci havuzunun gittikçe verimsizleşen bir mekanizmaya sahip olması konularını ele almaya çalıştım.</description>
+    </item>
+    
+  </channel>
+</rss>
